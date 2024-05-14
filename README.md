@@ -1,5 +1,3 @@
-### README.md
-
 # SimionOptimizer
 
 SimionOptimizer is a Julia module designed to optimize SIMION parameters using simulated annealing. This tool provides flexibility to handle a generalized number of voltages and allows users to specify voltage ranges and the maximum number of calls as optional parameters.
@@ -73,13 +71,6 @@ This module contains the core functions for running the optimization.
 
 If you have suggestions or improvements, feel free to submit a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This README provides an overview of how to use the SimionOptimizer module, explains the arguments for running the script, and gives a basic intuition into how simulated annealing works.
 ### Authors
 
 **Exotic Molecules and Atoms Lab**
