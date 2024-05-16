@@ -21,10 +21,10 @@ Pkg.add(["Optim", "CSV", "ArgParse", "DataFrames"])
 
 ### Running the Optimization
 
-To run the optimization, use the `run_optimization.jl` script with appropriate arguments. Here is an example command:
+To run the optimization, use the `scripts/runner.jl` script with appropriate arguments. Here is an example command:
 
 ```sh
-julia run_optimization.jl --path2exec="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize\VMI_3.PA0" --path2save="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize" --num_voltages=5 --lower_bounds -2000 -2000 -2000 -2000 -2000 --upper_bounds 0 0 0 0 0 --max_calls=500
+julia ./scripts/runner.jl --path2exec="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize\VMI_3.PA0" --path2save="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize" --num_voltages=5 --lower_bounds -2000 -2000 -2000 -2000 -2000 --upper_bounds 0 0 0 0 0 --max_calls=500
 ```
 
 ### Arguments
@@ -39,7 +39,7 @@ julia run_optimization.jl --path2exec="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_op
 ### Example
 
 ```sh
-julia run_optimization.jl --path2exec="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize\VMI_3.PA0" --path2save="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize" --num_voltages=5 --lower_bounds -2000 -2000 -2000 -2000 -2000 --upper_bounds 0 0 0 0 0 --max_calls=500
+julia scripts/runner.jl --path2exec="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize\VMI_3.PA0" --path2save="C:\Users\EXPETIMENT\Desktop\SIMION\VMI_optimize" --num_voltages=5 --lower_bounds -2000 -2000 -2000 -2000 -2000 --upper_bounds 0 0 0 0 0 --max_calls=500
 ```
 
 ### Intuition into Simulated Annealing

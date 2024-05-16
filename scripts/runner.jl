@@ -1,5 +1,5 @@
 using Pkg
-Pkg.activate("..")
+Pkg.activate("./src/optimizer.jl")
 using ArgParse
 using SimionOptimizer
 
